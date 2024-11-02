@@ -8,6 +8,7 @@ Declarative Syntax: Describe what the UI should look like, and React takes care 
 Virtual DOM: Enhances performance by minimizing direct DOM manipulation, only updating the parts of the DOM that need to change.
 
 Note: This is a learning based project and while making this project I learned about useState Hook, useCallBack, UseRef and useEffect.
+
  useState: Manages state in functional components. It returns the current state and a function to update it. Useful for tracking variables that change over time (e.g., user input, component visibility).
 
 useCallback: Memoizes a function, returning the same instance between renders unless dependencies change. This is useful for performance optimization, especially when passing callbacks to child components.
